@@ -28,19 +28,23 @@
 			<ul>
 				<li><a href="member/signup_form.jsp">회원가입 폼</a></li>
 				<li><a href="member/login_form.jsp">로그인 폼</a></li>
-<<<<<<< HEAD
+
 				
 				
-=======
+
 				<li><a href="javascript:alert('준비중입니다.');">공부하기</a></li>
 				<li><a href="javascript:alert('준비중입니다.');">당구치기</a></li>
->>>>>>> upstream/master
+
 			</ul>
 		</div>	
 		<h2>손모세</h2>
 		<div>
 			<p>바다를 가르는 자!</p>
 		</div>
+		<h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+		<h1>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</h1>
+		<li>sss</li>
+		<li>cccc</li>
 	</div>
 </body>
 </html>
