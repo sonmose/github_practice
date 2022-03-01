@@ -16,6 +16,9 @@
       </button>
       <div class="collapse navbar-collapse" id="topNav">
          <ul class="navbar-nav">
+         	<li class="nav-item">
+         		<a class="nav-link <%=thisPage.equals("file") ? "active" : "" %>" href="<%=request.getContextPath() %>/file/list.jsp">자료실</a>
+         	</li>
             <li class="nav-item">
                <a class="nav-link <%=thisPage.equals("member") ? "active" : "" %>"href="${pageContext.request.contextPath }/member/signup_form.jsp">회원가입</a>
             </li>
