@@ -23,8 +23,8 @@
 			<h1 class="display-3 text-dark">인덱스 페이지 입니다</h1>
 		</div>
 		<div>
-			<button type="button" class="btn btn-primary" onclick="location.href='member/signup_form.jsp';">회원가입</button>
-			<button type="button" class="btn btn-outline-primary" onclick="location.href='member/login_form.jsp';">로그인</button>
+			<button type="button" class="btn btn-outline-primary" onclick="location.href='member/signup_form.jsp';">회원가입</button>
+			<button type="button" class="btn btn-primary" onclick="location.href='member/login_form.jsp';">로그인</button>
 			<ul>
 				<li><a href="member/signup_form.jsp">회원가입 폼</a></li>
 				<li><a href="member/login_form.jsp">로그인 폼</a></li>
@@ -33,7 +33,18 @@
 				<li><a href="javascript:alert('노래 추천해주세요')">노래듣기</a></li>
 			</ul>
 		</div>	
-		<h2>손모세</h2>
+		<h2>손모세</h2>	
+		<p>충돌이 날까요?</p>
+		<p>충돌나라~~</p>
+			<p>충돌나라~~</p>
+				<p>충돌나라~~</p>
+				
+				<p>충돌나라~~</p>
+					<p>충돌나라~~</p>
+	<h2>호로로로롤</h2>
+
+	<p>뭘 추가해볼까요?</p>
+	<p>위에 만든거 수정하는게 더 나으려나</p>
 	<div>
 			<p>바다를 가르는 자!</p>
 		</div>
@@ -45,15 +56,6 @@
 	<button type="button">버튼</button>
 	<button type="button">버튼2</button>
 	<button type="button">버튼3</button>
-	<p>충돌나라~~</p>
-		<p>충돌나라~~</p>
-			<p>충돌나라~~</p>
-				<p>충돌나라~~</p>
-				
-				<p>충돌나라~~</p>
-					<p>충돌나라~~</p>
-	<h2>호로로로롤</h2>
 
-	<p>뭘 추가해볼까요?</p>
 </body>
 </html>
