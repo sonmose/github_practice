@@ -53,9 +53,9 @@
 		<li>sss</li>
 		<li>cccc</li>
 	</div>
-	<button type="button">버튼</button>
-	<button type="button">버튼2</button>
-	<button type="button">버튼3</button>
-
+	<button type="button">삭제</button>
+	<button type="button">추가</button>
+		<button type="button">지우기</button>
+		<button type="button">버튼4</button>
 </body>
 </html>
