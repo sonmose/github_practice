@@ -37,5 +37,16 @@
 			<p>바다를 가르는 자!</p>
 		</div>
 	</div>
+	<button type="button">버튼</button>
+	<button type="button">버튼2</button>
+	<button type="button">버튼3</button>
+	<p>충돌나라~~</p>
+		<p>충돌나라~~</p>
+			<p>충돌나라~~</p>
+				<p>충돌나라~~</p>
+				
+				<p>충돌나라~~</p>
+					<p>충돌나라~~</p>
+	<h2>호로로로롤</h2>
 </body>
 </html>
