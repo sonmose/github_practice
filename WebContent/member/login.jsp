@@ -17,6 +17,7 @@
       <p>
          <strong><%=id %></strong> 님 로그인 되었습니다.
          <a href="<%=url%>">확인</a>
+         <p>nono</p>
       </p>
 
 </div>
