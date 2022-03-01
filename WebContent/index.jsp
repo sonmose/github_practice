@@ -15,7 +15,6 @@
 </head>
 <body>
 <jsp:include page="/include/resource.jsp"></jsp:include>
-<jsp:include page="/include/navbar.jsp"></jsp:include>
 	<div class="container">
 		<div class="col d-flex justify-content-center">
 			<h1 class="display-3 text-dark">인덱스 페이지 입니다</h1>
