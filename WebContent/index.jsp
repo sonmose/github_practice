@@ -22,7 +22,7 @@
 			<button type="button" class="btn btn-outline-info btn-lg" onclick="location.href='member/login_form.jsp';">로그인</button>
 			<ul>
 				<li><a href="member/signup_form.jsp">회원가입 폼</a></li>
-				<li><a href="member/login_form.jsp">로그인 폼 입니다</a></li>
+				<li><a href="member/login_form.jsp">로그인 폼 입니다!</a></li>
 			</ul>
 		</div>	
 	</div>
