@@ -30,13 +30,17 @@
 				<li><a href="member/login_form.jsp">로그인 폼</a></li>
 				<li><a href="javascript:alert('공부는 항상 하고있습니다.');">공부하기</a></li>
 				<li><a href="javascript:alert('준비중입니다.');">당구치기</a></li>
-				<l1><a href="javascript:alert('노래 추천해주세요')">노래듣기</a></l1>
+				<li><a href="javascript:alert('노래 추천해주세요')">노래듣기</a></li>
 			</ul>
 		</div>	
 		<h2>손모세</h2>
 	<div>
 			<p>바다를 가르는 자!</p>
 		</div>
+		<h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+		<h1>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</h1>
+		<li>sss</li>
+		<li>cccc</li>
 	</div>
 	<p>뭘 추가해볼까요?</p>
 </body>
