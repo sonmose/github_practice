@@ -1,40 +1,31 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-    <%
-       // thisPage 라는 파라미터명으로 전달되는 문자열을 얻어와 본다. 
-       // null or "file" or "cafe"
-       String thisPage=request.getParameter("thisPage");
-       // thisPage 가 null 이면 index.jsp 페이지에 포함된 것이다. 
-       //System.out.println(thisPage);
-       //만일 null 이면 
-       if(thisPage==null){
-          //빈 문자열을 대입한다. (NullPointerException 방지용)
-          thisPage="";
-       }
-       //로그인 된 아이디 읽어오기 
-       String id=(String)session.getAttribute("id");
-    %>
-   <nav class="navbar navbar-light bg-light navbar-expand-lg">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="<%=request.getContextPath() %>/">
-               <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-               MonkeyStrap
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-             data-bs-target="#navbarNav">
-               <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav me-auto">
-                  <li class="nav-item">
-                      <a class="nav-link <%=thisPage.equals("file") ? "active" : "" %>" href="<%=request.getContextPath() %>/file/list.jsp">자료실</a>
-                 </li>
-               </ul>
-          </div>
+<%
+	//thisPage라는 파라미터명으로 전달되는 값을 읽어와 본다.(null 일수도 있음!)
+	String thisPage=request.getParameter("thisPage");
+	//만일 null이면 빈문자열을 넣어준다.
+	if(thisPage==null){
+		thisPage="";
+	}
+%>
+<div class="navbar bg-primary navbar-dark navbar-expand-sm">
+   <div class="container">
+      <a class="navbar-brand" href="${pageContext.request.contextPath }/index.jsp">Home</a>   
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#topNav">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="topNav">
+         <ul class="navbar-nav">
+         	<li class="nav-item">
+         		<a class="nav-link <%=thisPage.equals("file") ? "active" : "" %>" href="<%=request.getContextPath() %>/file/list.jsp">자료실</a>
+         	</li>
+            <li class="nav-item">
+               <a class="nav-link <%=thisPage.equals("member") ? "active" : "" %>"href="${pageContext.request.contextPath }/member/signup_form.jsp">회원가입</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link <%=thisPage.equals("todo") ? "active" : "" %>" href="${pageContext.request.contextPath }/member/login_form.jsp">로그인</a>
+            </li>
+         </ul>   
       </div>
-   </nav>
-
-
-
-
+   </div>
+</div>
