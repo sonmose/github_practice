@@ -42,6 +42,18 @@
 		<li>sss</li>
 		<li>cccc</li>
 	</div>
+	<button type="button">버튼</button>
+	<button type="button">버튼2</button>
+	<button type="button">버튼3</button>
+	<p>충돌나라~~</p>
+		<p>충돌나라~~</p>
+			<p>충돌나라~~</p>
+				<p>충돌나라~~</p>
+				
+				<p>충돌나라~~</p>
+					<p>충돌나라~~</p>
+	<h2>호로로로롤</h2>
+
 	<p>뭘 추가해볼까요?</p>
 </body>
 </html>
